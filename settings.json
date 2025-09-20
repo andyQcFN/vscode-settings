@@ -1,0 +1,69 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "window.confirmBeforeClose": "always",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.limit.value": 8,
+    "workbench.editor.limit.perEditorGroup": true,
+    "files.autoSave": "afterDelay",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "I"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+    ],
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-f>": false,
+        "<C-z>": false
+    },
+    "workbench.sideBar.location": "right"
+}

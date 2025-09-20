@@ -63,7 +63,8 @@
     "vim.handleKeys": {
         "<C-d>": true,
         "<C-f>": false,
-        "<C-z>": false
+        "<C-z>": false,
+        "<C-w>": false
     },
     "workbench.sideBar.location": "right"
 }
